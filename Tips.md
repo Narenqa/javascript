@@ -1,16 +1,20 @@
-Boolean Expression
+
+## Boolean Expression
 
 null, undefined, ' ' the empty string and 0 the number are all false boolean expression.
 But be careful, '0' the string, [ ] the empty array, and {} the empty object are all true boolean expression.
+
 so instead of using
 if(x != null)
 You can write the shorter format
 if(x)
+
 Similarly, if you want to check both null and empty. You can do like this:
 if(x != null && x != ' ')
 However, You can write short and nice
 if(x)
-Conditional Ternary Operator
+
+## Conditional Ternary Operator
 
 Instead of this,
 if (x) {
@@ -61,7 +65,8 @@ var flag = student && student.name && student.name[index];
 if (flag) {
    foo(student.name[index]);
 }
-Iteration using for loop:
+
+## Iteration using for loop:
 
 For loop:
 
