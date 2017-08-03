@@ -2,6 +2,8 @@
 
 JavaScript programming guidelines will help you to deliver error free code and it follows on the Google JavaScript guideline documentation.
 
+
+
 File Name:
 The file name must be all lower case. It may include dashes(-) or underscores(_) but no other punctuation allowed. 
 File encoding type must be UTF-8.
@@ -77,6 +79,4 @@ Always terminate a statement with a semicolon.
 Mark deprecated methods, classes, and interfaces with @deprecated annotation.
 Set compiler warning level to verbose.
 Use of "Strict mode" is highly encouraged.
-
-
 
