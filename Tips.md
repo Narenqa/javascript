@@ -10,7 +10,9 @@ You can write the shorter format
 if(x)
 
 Similarly, if you want to check both null and empty. You can do like this:
+
 if(x != null && x != ' ')
+
 However, You can write short and nice
 if(x)
 
@@ -24,8 +26,10 @@ if (x) {
 }
 
 you can use the ternary operator,
+
 return x ? foo( ) :bar( )
-Short Circuit Operator
+
+## Short Circuit Operator
 
 && and ||, these operators are called as short circuit operators. Consider the following code.
 
