@@ -32,7 +32,7 @@ Instead of this,
 
 you can use the ternary operator,
 
-return x ? foo( ) :bar( )
+      return x ? foo( ) :bar( )
 
 ## Short Circuit Operator
 
